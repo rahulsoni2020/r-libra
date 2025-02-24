@@ -1,0 +1,35 @@
+.container{
+    flex-direction: column;
+}
+.cd-btn-container{
+    display: flex;
+    gap: 20px;
+}
+.cd-form-container{
+    display: flex;
+}
+.form-control{
+    width: 2.5rem;
+}
+.form-group{
+    position: relative;
+}
+.form-group::after{
+    content: ':';
+    position: absolute;
+    top:20px;
+    right:-10px;
+}
+.form-group:last-child::after{
+    content: '';
+}
+.timer-container{
+    display: flex;
+    gap:20px;
+}
+.timer-group{
+    height: 3.75rem ;
+    width: 3.75rem;
+    align-items: center;
+    justify-content: center;
+}

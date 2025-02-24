@@ -1,3 +1,4 @@
+
 .container{
     margin: 20px 0;
     box-shadow: 5px 5px 10px #777;
@@ -6,5 +7,79 @@
     justify-content: center;
     align-items: center;
     height: calc(100vh - 120px);
-    /* padding: 20px; */
 }
+
+/* form css */
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 1.25rem);
+    margin: 10px;
+}
+
+.form-group label{
+    margin-bottom: .25rem;
+    margin-left: .125rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.form-control {
+    border: 2px solid #6fbfe3;
+    outline: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    border-color: #0698dc;
+}
+
+/* btn css */
+
+.btn {
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #5193e9;
+    border: none;
+    border-radius: 0.375rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    text-align: center;
+  }
+  .btn:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .btn:hover {
+    background-color: #417bcc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+  }
+  
+  .btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-error {
+    background-color: #f12222;
+  }
+  
+  .btn-error:hover {
+    background-color: #c91c1c;
+  }
+  
+  .btn-success {
+    background-color: #236607;
+  }
+  
+  .btn-success:hover {
+    background-color: #1b5005;
+  }
+
+  
