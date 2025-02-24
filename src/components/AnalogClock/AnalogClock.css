@@ -1,12 +1,4 @@
-.clock-container{
-    margin: 20px;
-    box-shadow: 5px 5px 10px #777;
-    width: calc(100% - 40px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 200px);
-}
+
 
 .clock-container .clock{
     width: 400px;
