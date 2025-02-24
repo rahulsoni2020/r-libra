@@ -1,0 +1,38 @@
+.clock-container{
+    margin: 20px;
+    box-shadow: 5px 5px 10px #777;
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px);
+}
+
+.clock-container .clock{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    position: relative;
+}
+
+ .hand{
+    width: 4px;
+    height: 140px;
+    background-color: #000;
+    position: absolute;
+    transform-origin: bottom center;
+    left: 50%;
+    bottom:50%;
+}
+
+.minute{
+    width: 2px;
+    height: 160px;
+}
+
+.second{
+    width: 2px;
+    height: 180px;
+    background-color: #f80000;
+}

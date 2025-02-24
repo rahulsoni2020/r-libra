@@ -1,0 +1,26 @@
+.acc-card-container{
+    width: 100%;
+    border: 1px solid #222;
+    box-shadow: 0 0 5px #777;
+    margin: 15px 0;
+}
+.acc-card-container:has(.body) .head{
+    border-bottom: 1px solid black;
+}
+.acc-card-container .head{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 600;
+}
+.acc-card-container .transform-svg{
+    transform: rotate(180deg);
+}
+.acc-card-container .body{
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
