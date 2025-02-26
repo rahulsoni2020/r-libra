@@ -17,6 +17,9 @@ const routerList = [
     },{
         path: 'image-carousel',
         element: <Carousel/>
+    },{
+        path: 'r-libra',
+        element: <Dashboard/>
     }
 ]
 
