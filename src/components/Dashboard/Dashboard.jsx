@@ -6,10 +6,6 @@ import useAddMobileData from "./useAddMobileData";
 
 const Dashboard = ()=>{
     const [cards, setCards] = useState(CARDS);
-    const addFun = ()=>{
-        const data = useAddMobileData();
-        console.log(data);
-    }
     useEffect(() => {
         return () => {
             
