@@ -8,6 +8,7 @@ import Counter from "./components/Counter/Counter";
 import DragListItem from "./components/DragListItem/DragListItem";
 import DragAndDrop from "./components/DragAndDrop/DragAndDrop";
 import UserListing from "./components/TripJack/TripJack";
+import InfiniteScroll from "./components/InfiniteScroll/InfiniteScroll";
 
 const routerList = [
     {
@@ -45,6 +46,10 @@ const routerList = [
     {
         path: 'trip-jack-users',
         element: <UserListing/>
+    },
+    {
+        path: 'infinite-scroll',
+        element: <InfiniteScroll/>
     }
 ];
 

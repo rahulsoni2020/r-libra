@@ -40,6 +40,12 @@ export const CARDS = [
         "route": "/drag-and-drop",
         "detail": "Drag list items.",
         "icon": "🖼️"
+    },
+    {
+        "name": "Infinite Scroll",
+        "route": "/infinite-scroll",
+        "detail": "Products",
+        "icon": "🖼️"
     }
 ]
 
